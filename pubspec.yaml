@@ -1,0 +1,92 @@
+name: swift_shop
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  http: ^1.1.0
+  go_router: ^12.1.1
+  flutter_riverpod: ^2.4.8
+  curved_navigation_bar: ^1.0.3
+  gap: ^3.0.1
+  get: ^4.6.6
+  get_it: ^7.6.4 #dependency injection
+  shared_preferences: ^2.2.2
+  flutter_rating_bar: ^4.0.1
+  country_picker: ^2.0.22
+  lottie: ^2.7.0
+  iconly: ^1.0.1
+  collection: ^1.17.2
+  iconify_flutter: ^0.0.5
+  flutter_multi_formatter: ^2.12.0
+  mysql1: ^0.20.0
+#  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+
+  fonts:
+    - family: Switzer
+      fonts:
+        - asset: assets/fonts/Switzer-Black.otf
+        - asset: assets/fonts/Switzer-BlackItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Bold.otf
+        - asset: assets/fonts/Switzer-BoldItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Extrabold.otf
+        - asset: assets/fonts/Switzer-ExtraboldItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Extralight.otf
+        - asset: assets/fonts/Switzer-ExtralightItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Italic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Light.otf
+        - asset: assets/fonts/Switzer-LightItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Medium.otf
+        - asset: assets/fonts/Switzer-MediumItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Regular.otf
+        - asset: assets/fonts/Switzer-Semibold.otf
+        - asset: assets/fonts/Switzer-SemiboldItalic.otf
+          style: italic
+        - asset: assets/fonts/Switzer-Thin.otf
+        - asset: assets/fonts/Switzer-ThinItalic.otf
+          style: italic
